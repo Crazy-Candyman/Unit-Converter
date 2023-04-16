@@ -1,0 +1,103 @@
+:root {
+  --top-background: #6943ff;
+  --bottom-headercolor: #5a537b;
+  --bottom-background: #d1cece;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+  background-color: black;
+}
+
+main {
+  width: 34.3rem;
+  height: 45.5rem;
+  padding: 1em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.25em;
+}
+
+.top {
+  display: grid;
+  place-items: center;
+  border: none;
+  height: 19rem;
+  background-color: var(--top-background);
+  border-radius: 10px 10px 0px 0px;
+  padding-bottom: 1em;
+}
+
+.bottom {
+  display: grid;
+  gap: 0.5em;
+  place-items: center;
+  border: none;
+  background-color: var(--bottom-background);
+  height: 27.75rem;
+  border-radius: 0px 0px 10px 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 0.5em;
+}
+
+input {
+  width: 7.3rem;
+  height: 5rem;
+  border: 2px solid #b295ff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+  box-shadow: inset -2px -2px 10px 0px black;
+}
+
+button {
+  width: 7.3rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #ffffff;
+  border-radius: 0.3em;
+  padding: 0.5em 1.5em;
+  border: none;
+  box-shadow: 5px 5px 5px 0px;
+}
+
+button:active {
+  box-shadow: 3px 3px 5px 0px;
+}
+
+.box {
+  height: 6.5rem;
+  width: 29rem;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  line-height: 1.7;
+  padding-top: 1.25em;
+  border-radius: 0.6em;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #5a537b;
+}
