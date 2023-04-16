@@ -110,6 +110,14 @@ h2 {
     font-size: 12px;
   }
 
+  .top {
+    height: 40%;
+  }
+
+  .bottom {
+    height: 60%;
+  }
+
   main {
     min-width: 100vw;
     min-height: 100vh;
