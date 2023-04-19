@@ -64,7 +64,7 @@ input {
   height: 5rem;
   border: 2px solid #b295ff;
   border-radius: 5px;
-  background-color: transparent;
+  background-color: var(--top-background);
   color: rgb(255, 255, 255);
   font-size: 3.5rem;
   font-weight: 800;
@@ -81,11 +81,11 @@ button {
   border-radius: 0.3em;
   padding: 0.5em 1.5em;
   border: none;
-  box-shadow: 5px 5px 5px 0px;
+  box-shadow: 5px 5px 5px 0px black;
 }
 
 button:active {
-  box-shadow: 3px 3px 5px 0px;
+  box-shadow: 3px 3px 5px 0px black;
 }
 
 .box {
@@ -101,7 +101,7 @@ button:active {
 
 h2 {
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #5a537b;
 }
 
